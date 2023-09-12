@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import gensim
 from gensim.models import KeyedVectors
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import load_model
